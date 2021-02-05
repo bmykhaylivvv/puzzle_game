@@ -26,7 +26,7 @@ def remove_stars(char):
 
 def numeric_check(colors):
     """
-    Function checks if each element in list is str(number) or blank character
+    Function checks if each element in list is str(number) or blank character.
     >>> numeric_check([[' ', ' ', '3', ' ', ' ', ' ', '2', ' ', ' '],\
                        [' ', ' ', '6', ' ', ' ', '8', ' ', ' ', '1'],\
                        [' ', '4', ' ', ' ', ' ', ' ', '2', ' ', ' '],\
@@ -44,7 +44,7 @@ def numeric_check(colors):
 
 def horizontal_lines(board):
     """
-    Function reads horizontal lines on the board
+    Function reads horizontal lines on the board.
     >>> horizontal_lines(board)
     [['*', '*', '*', '*', ' ', '*', '*', '*', '*'], ['*', '*', '*', '1', ' ', '*', '*', '*', '*'], ['*', '*', ' ', ' ', '3', '*', '*', '*', '*'], ['*', ' ', '4', ' ', '1', '*', '*', '*', '*'], [' ', ' ', ' ', ' ', ' ', '9', ' ', '5', ' '], [' ', '6', ' ', ' ', '8', '2', ' ', ' ', '*'], ['3', ' ', ' ', ' ', '2', ' ', ' ', '*', '*'], [' ', ' ', '8', ' ', ' ', '1', '*', '*', '*'], [' ', ' ', '2', ' ', ' ', '*', '*', '*', '*']]
     """
@@ -57,7 +57,7 @@ def horizontal_lines(board):
 
 def vertical_lines(board):
     """
-    Function reads vertical lines on the board
+    Function reads vertical lines on the board.
     >>> vertical_lines(board)
     [['*', '*', '*', '*', ' ', ' ', '3', ' ', ' '], ['*', '*', '*', ' ', ' ', '6', ' ', ' ', ' '], ['*', '*', ' ', '4', ' ', ' ', ' ', '8', '2'], ['*', '1', ' ', ' ', ' ', ' ', ' ', ' ', ' '], [' ', ' ', '3', '1', ' ', '8', '2', ' ', ' '], ['*', '*', '*', '*', '9', '2', ' ', '1', '*'], ['*', '*', '*', '*', ' ', ' ', ' ', '*', '*'], ['*', '*', '*', '*', '5', ' ', '*', '*', '*'], ['*', '*', '*', '*', ' ', '*', '*', '*', '*']]
     """
@@ -73,7 +73,7 @@ def vertical_lines(board):
 
 def one_color(board):
     """
-    Function reads sections with the same color on the boards
+    Function reads sections with the same color on the boards.
     >>> one_color(board)
     [[' ', ' ', '3', ' ', ' ', ' ', '2', ' ', ' '], [' ', ' ', '6', ' ', ' ', '8', ' ', ' ', '1'], [' ', '4', ' ', ' ', ' ', ' ', '2', ' ', ' '], ['1', ' ', ' ', ' ', ' ', '8', '2', ' ', ' '], [' ', ' ', '3', '1', ' ', '9', ' ', '5', ' ']]
     """
@@ -95,7 +95,7 @@ def one_color(board):
 def repeat_check(lst):
     """
     Fuction checks if there are repeatable characters in rows, columns or 
-    sections with the same color
+    sections with the same color.
     >>> repeat_check([['*', '*', '*', '*', ' ', ' ', '3', ' ', ' '],\
                       ['*', '*', '*', ' ', ' ', '6', ' ', ' ', ' '],\
                       ['*', '*', ' ', '4', ' ', ' ', ' ', '8', '2'],\
@@ -121,7 +121,7 @@ def repeat_check(lst):
 def validate_board(board):
     """
     MAIN FUNCTION
-    Function checks if board is valid for game
+    Function checks if board is valid for game.
     >>> validate_board(board)
     True
     """
