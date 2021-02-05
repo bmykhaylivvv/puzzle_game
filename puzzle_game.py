@@ -3,7 +3,7 @@ My version of "Puzzle game" board validation on GitHub:
 https://github.com/bmykhaylivvv/puzzle_game
 """
 
-# board for doctests
+# board for Doctest module
 board = [
     "**** ****",
     "***1 ****",
