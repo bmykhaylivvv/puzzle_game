@@ -1,1 +1,1 @@
-### Project which validate a board of symbols for "Puzzle game"
+## Project which validate a board of symbols for "Puzzle game"
